@@ -1,3 +1,22 @@
+// Los strings o cadenas de texto representan un Texto que se puede asignar a una variable
+
+// Utilizar " " o ' ' nunca mezclar " '
+const producto1 = 'Monitor 20 Pulgadas'; 
+const producto2 = "Monitor 20 Pulgadas";
+
+//Forma poco uso String()
+const producto3 = String('Monitor 24 Pulgadas');
+//Otra menara, Crea objeto cadena
+const producto4 = new String('Monitos de 30 pulgadas')
+
+// const producto3 = "Monitor 20 Pulgadas';
+// Ejemplo con Pulgadas usar barra inclnidada para separar " /""
+const producto5 = "Monitor 24\"";
+
+console.log(producto1,producto2,producto3)
+console.log(producto4)
+console.log(producto5)
+
 const x = 'texto'
 const y = 'libro'
 
@@ -51,7 +70,4 @@ console.log(producto.split(" "))
 console.log(producto.toUpperCase())
 //toLowerCase minisculas
 console.log(producto.toLowerCase())
-
-const hola = "hola"
-console.log(hola)
 
