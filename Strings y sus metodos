@@ -23,20 +23,20 @@ const y = 'libro'
 // .length   Cantidad  de letras en cadena de texto
 console.log(x.length);
 //.indexOf  // Posicion del texto en caso de encontrarlo
-//.indexOf  // -1 si no lo encuentra 
+//.indexOf  // -1 en consola si no lo encuentra 
 console.log(x.indexOf('Y'));
 /*.includes  Concocer si un texto existe, diferencia mayus y minus
 true o false */
 console.log(x.includes('Y'));
 
 const z = '                 z              '
-//elimina espacio inicio
+// .trimStart elimina espacio inicio
 console.log(z.trimStart());
-//elimina espacio final
+// .trimEnd elimina espacio final
 console.log(z.trimEnd());
-//elimina espacio inicio final
+// .trimStart().trimEnd() elimina espacio inicio final
 console.log(z.trimStart().trimEnd());
-//elimina espacio inicio final
+// .trim elimina espacio inicio final
 console.log(z.trim());
 
 //Concatenar
@@ -52,7 +52,7 @@ const producto = 'Monitor 20 pulgads'
 //Replace, Slice y Substring
 //.replace permite reemplazar un string
 console.log(producto.replace('Pulgadas', '"'));
-//.slice para cortar caracteres, primer numero mayor al segundo no hace nada
+//.slice para cortar caracteres, si el primer numero es mayor al segundo no hace nada en consola.
 console.log(producto.slice(0,3));
 //.substring alternativa slice,
 /*diferencia entre slice y substring si les pasas un numero mayor de inicio a slice no hace nada
@@ -65,9 +65,12 @@ console.log(producto.repeat(3))
 //split dividir un string
 console.log(producto.split(" "))
 
-//convertir mayusculas y miniscular
+//convertir mayusculas y minisculas
 //toUpperCase mayusuculas 
 console.log(producto.toUpperCase())
 //toLowerCase minisculas
 console.log(producto.toLowerCase())
+
+
+
 
