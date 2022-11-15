@@ -1,0 +1,113 @@
+// Crear numeros 
+
+//Numero se muestra de diferente color si es un String
+const numero1 = 20;
+const numero2 = "20";
+
+// Crear Números
+const numero3 = 30;
+const numero4 = 20;
+const numero5 = 20.20;
+const numero6 = .10213;
+const numero7 = -3;
+
+// Menos comun, crea un objeto cadena
+const numero8 = new Number(20);
+console.log(numero8);
+
+
+// Operaciones
+let resultado;
+const Operacion1 = 1;
+const Operacion2 = 1;
+
+// Estos signos se les conoce como operadores, hay para realziar sumas, multiplicaciones, restas y comparar si un número es mayor a otro
+// Suma + 
+resultado = Operacion1 + Operacion2;
+// Resta -
+resultado = Operacion1 - Operacion2;
+// Multiplicacion *
+resultado = Operacion1 * Operacion2;
+// Division /
+resultado = Operacion1 / Operacion2;
+// Modulo %
+resultado = Operacion1 % Operacion2;
+
+console.log(resultado);
+
+
+// Math es parte de la ventana global de JavaScript, tiene una serie de operaciones que pueden ser muy útiles y algunas actuan de forma algo extraña.
+let resultado1; 
+
+// Pi
+resultado1 = Math.PI;
+// Redondeo
+resultado1 = Math.round(2.5);
+// Redondedio arriba ceil 
+resultado1 = Math.ceil(2.5);
+//Redondio Abajo floor
+resultado1 = Math.floor(2.5)
+// Raiz cuadrada
+resultado = Math.sqrt(144);
+// Abssoluto
+resultado1 = Math.abs(-300);
+// Potencia
+resultado1 = Math.pow(8, 3);
+// Minimo
+resultado1 = Math.min(3,5,1,2,9,4,2, -3);
+// Max
+resultado1 = Math.max(4,1,21,4,15,5,11,5);
+// Aleatorio
+resultado1 = Math.random();
+// Aleatorio dentro de un rango:
+resultado1 =  Math.floor( Math.random() * 30 );
+
+console.log(resultado1);
+
+
+// El Orden en que se ejecutan las operaciones en JavaScript es igual que en la escuela
+let Orden
+// El orden de las operaciones
+Orden = 20 + 30 * 2;
+Orden = 20 + 30 * 2;
+Orden =  ( 20 + 30 ) * 2;
+
+// 20% De descuento en un carrito de compra.
+Orden = ( 20+10+30+40+50 ) * .20;
+
+console.log(Orden);
+
+// Incluir incremento por 1 y menos 1
+let puntaje = 5;
+puntaje++; //5 primero llama a la variable y despues suma 
+puntaje--;
+++puntaje;//6 suma 1 y luego se muestra sin llamar a la variable
+--puntaje;
+//Suma o Resta la cantidad al numero de la variable 
+puntaje += 3;
+puntaje -= 3;
+
+console.log(puntaje);
+
+
+//Funciones para convertir string a números
+
+const numero9 = "20";
+const numero10 = "20.2"
+//.parseInt Convertir de String a numero
+console.log(Number.parseInt(numero10)); 
+// .paraseFloat Convertir String a número con decimales 
+console.log(Number.parseFloat(numero10)); 
+
+//Escrito con letras no hace nada, no es un numero
+const numero11 = "Uno";
+console.log(Number.parseInt(numero11));
+
+// .isIntiger Revisar si un número es entero o no
+const numero12 = 20;
+console.log(Number.isInteger(numero12) ); 
+console.log(Number.isInteger(numero11) );
+
+// .toString Convertir String a numero
+console.log(numero12.toString());
+console.log(numero9);
